@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* .root에 변수 모아놓기 */
+:root {
+  /* 색상 */
+  --primary-color: #3498db; /* --(변수명) :  ; */
+  --secondary-color: #ffaf54;
+  --sub-color: #f8afed;
+  /* button 색상 */
+  --button-primary-color: #b0f887;
+  --button-hover-color: #8dd166;
+  --button-active-color: #eebac3;
+  /* button padding */
+  --button-padding-l: 10px 20px;
+  --button-padding-m: 8px 16px;
+  --button-padding-s: 6px 12px;
+  /* 글자 색상 */
+  --text-color-light: #2c3e50;
+  --text-color-dark: #fffffd;
+  /* 간격 */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+}
